@@ -1,0 +1,696 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navbar{
+    height: 50px;
+    background-color: white;
+    
+}
+
+
+.navbar-nav{
+
+}
+.navbar-nav ul li{
+
+}
+
+.navbar-nav{
+    background-color: darkgrey;
+    
+}
+.navbar-nav li a{
+color: black;font-family: monospace;
+margin-left: 20px;
+}
+.navbar-nav li a:hover{
+    color: red;
+}
+.color-black{
+    margin-right: 50px;
+}
+
+
+
+
+
+/* 1st part header start */
+
+.header{
+    background-color:#FAEBD7 ;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    
+}
+.header-content1{
+padding-top: 150px;
+
+}
+.header-content1 p{
+    padding: 1px 10px;
+    background-color: red;
+    color: white;
+    width: 270px;
+}
+.header-content1 h1{
+    width: 800px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.header-content1 ul{
+    width: 500px;
+    
+}
+.header-content1 button{
+    padding: 5px 23px;
+    border: none;
+    border-radius: 50px;
+background-color: orange;
+color: white;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+.header-content1 button:hover{
+    background-color:black;
+    color: white;
+    transition:1s;
+    
+
+}
+
+
+
+
+.header-content1-img{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+/* 1st part header end*/
+
+
+
+
+/* 2nd part card start */
+
+.main-card{
+margin: 50px 0px;
+text-align: center;
+display: flex;
+}
+.card1{
+border-radius: 25px;
+height: 470px;
+box-shadow: 0px 1px 14px 1px black;
+margin-top: 50px;
+text-align: center;
+}
+.card1-content{
+background-color: red ;
+text-align: center;
+color: white;
+padding-top: 20px;
+border-radius: 10px;
+padding-bottom: 30px;
+position: relative;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+height: 230px;
+}
+
+.card1-content button{
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 50px ;
+    border: 2px solid orange;
+    background-color: red;
+    margin-top: 14px;
+    
+    
+}
+.card1-content button:hover{
+    background-color: orange;
+}
+
+
+
+.card1-img img{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -150px;
+}
+.card1-img{
+    text-align: center;
+}
+/* 2nd part card end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 3rd part fresh panpie start  */
+
+
+.main-fresh-panpie{
+
+}
+
+.fresh-panpie1{
+    text-align: center;
+}
+
+.fresh-panpie1 h3{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.fresh-panpie1 h1{
+   margin-bottom: 50px;
+    
+    font-weight: bolder;
+}
+
+
+.fresh-panpie2-orderlist{
+text-align: center;
+
+}
+.fresh-panpie2-orderlist ul{
+display: flex;
+justify-content: center;
+}
+
+.fresh-panpie2-orderlist ul li{
+    margin-left: 10px;
+    border: 0.2px solid gray;
+    padding: 5px 15px;
+    border-radius: 50PX;
+}
+.fresh-panpie2-orderlist ul li a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.fresh-panpie2-orderlist ul li:hover{
+    background-color: orange;
+   
+}
+.fresh-panpie2-orderlist ul li a:hover{
+    color: white;
+}
+
+/* 3rd part fresh panpie end */
+
+
+
+
+
+/* 4th part of fresh proucts start  */
+.main-fresh-product{
+margin-top: 50px;
+}
+.fresh-product1{
+    padding: 30px 0px;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.fresh-product1-img{
+    position: relative;
+    cursor: pointer;
+text-align: center;
+justify-content: center;
+display: flex;
+}
+.fresh-product1-img:hover .img-hover{
+    opacity: 1;
+}
+.img-hover{
+text-align: center;
+position: absolute;
+opacity:0 ;
+margin-top: 70px;
+margin-left: 30px;
+}
+.img-hover button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+background-color: red;
+color: white;
+font-size: 14px;
+font-weight: bolder;
+
+
+
+
+
+}
+
+
+
+.fresh-product1-content1{
+    text-align: center;
+    
+}
+.fresh-product1-content1 h1{
+font-weight: bolder;
+font-size: 22px;
+}
+.fresh-product1-content1 button{
+    padding: 1px 20px;
+    border: none;
+    box-shadow: grey;
+    border-radius:50px ;
+    cursor: pointer;
+     
+}
+.fresh-product1-content1 i{
+    margin-left: 70px;
+    background-color: red;
+    padding: 7px;
+    padding-right: 10px;
+    margin-right: -18px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    color: white;
+  
+}
+
+
+
+
+
+
+
+.fresh-product1-button{
+    position: relative;
+    
+}
+.fresh-product1-button:hover .hover{
+    opacity: 1;
+}
+
+
+
+
+
+.hover{
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.hover b{
+    color: white;
+    
+    
+}
+.hover b:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.fresh-product1-content1 h4{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -30px;
+    color: crimson;
+}
+
+
+
+/* 4th part of fresh proucts start  */
+
+
+
+
+
+/* 5th part of quality pizza start */
+
+
+.main-quality-pizza{
+background-color: black;
+margin: 65px 0px;
+padding: 100px 0px;
+}
+.quality-pizza1{
+    text-align: center;
+}
+
+.quality-pizza1 h1{
+    color: white;
+    
+    font-weight: bold;
+}
+
+.quality-pizza1 button{
+    padding: 10px 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.quality-pizza-img{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* 5th part of quality pizza end */
+
+
+
+/* 6th part of best burger start */
+
+.best-burger1{
+    text-align: center;
+}
+.best-burger1 h1{
+    font-weight: bold;
+}
+.best-burger1 b{
+    color: tomato;
+    margin: 30px 0px;
+}
+.best-burger1 p{
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.best-burger1 button{
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+.best-burger1 button:hover{
+    background-color: black;
+    color: white;
+    margin-bottom: 80px;
+}
+
+/* 6th part of best burger end */
+
+
+/*  7th part of king burger start */
+
+.main-king-burger{
+    margin-top: 80px;
+    text-align: center;
+    background-color: cornsilk;
+    padding-top:50px ;
+}
+
+.king-burger1{
+
+}
+.king-burger1 h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.king-burger1 button{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.king-burger1-img img{
+    margin-top: 50spx;
+}
+/*  7th part of king burger end*/
+
+/* 8th part of order-images start */
+
+
+
+.main-order{
+    background-image: url(image/food.jpg);
+    margin-top: 100px;
+    position: relative;
+    background-attachment: fixed;
+z-index: 33;
+padding-bottom: 70px;
+}
+.main-order::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    
+}
+
+.order1{
+    text-align: center;
+    margin-top: 50px;
+    z-index: 5;
+    color: white;
+}
+
+.order1 i{
+    color: red;
+    font-size: 40px;
+}
+
+.order1 h1{
+    font-size:55px;
+}
+
+.order1 h3{
+    font-size: 20px;
+    font-weight: none;
+}
+
+
+
+/* 8th part of order-images start */
+
+
+
+
+/* 9th part of testimonials start */
+
+
+
+.testmonial-img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.testmonial-img img{
+    width: 300px;
+}
+
+
+
+
+.testmonial1{
+    margin-top: 30px ;
+    color: tomato;
+
+}
+.testmonial1 h1{
+    color: black;
+margin-top: -20px;
+}
+
+/* 9th part of testimonials end */
+
+
+
+
+
+/*  10th part of testmonial carousedl start  */
+
+
+.carousel-indicators{
+text-align: center;
+margin-top: 50px;
+position: absolute;
+}
+.carousel-indicators li{
+    color: black;
+    background-color: red;
+
+
+
+}
+
+
+/*  10th part of testmonial carousedl end*/
+
+/* 11 part of pizza-drink start */
+
+
+
+
+
+
+.pizza-drink1{
+    background-image: url(image/images1_files/pizza.jpg);
+    
+    height: 350px;
+    width: 100%;
+    font-size: 30px;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     margin-top: 30px;
+}
+.pizza-drink1:hover{
+filter: zoom-in(10px);
+}
+
+
+.pizza-drink1 h1{
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/* 11 part of pizza-drink end */
+
+/* 12th part of new-blog start */
+
+
+.main-new-blog{
+    margin-top: 30px;
+    background-color: silver;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.new-blog1 b{font-weight: bold;
+    color: red;
+}
+.new-blog1 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.new-blog2{
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.new-blog2 h1{
+    font-size: 30px;
+}
+.new-blog2 p{
+    color: slategray;
+}
+.new-blog2 h2{
+    color: slategray;
+    font-size: 20px;
+    
+}
+/* 12th part of new-blog end */
+
+/* 13 part of bike start  */
+
+.main-bike{
+    background-image: url(image/building1.jpeg);
+    margin-top: 100px;
+    position: relative;
+    
+}
+.main-bike::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    background-color:rgba(226, 28, 28, 0.8);
+    
+}
+
+.bike1-img{
+    
+padding-top:-10px;
+transition: 5s;
+margin-left: -30px;
+width: 200px;
+}
+.bike1-img img{
+    width: 300px;
+}
+.bike1-img:hover{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+.bike2{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    
+}
+.bike3{
+    text-align: center;
+    padding-top: 70px;
+}
+.bike3 button{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: sandybrown;
+    color: white;
+    font-size: 30px;
+font-size: 18px;}
+/* 13 part of bike end  */
